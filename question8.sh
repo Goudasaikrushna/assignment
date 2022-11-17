@@ -1,6 +1,6 @@
 #! /bin/bash
-jsonvariable='[{"fruit" : "apple" ,
+jsonvariable='{"fruit" : "apple" ,
 "SIZE" : "Large" ,
-"color" : "Red"}]'
+"color" : "Red"}'
 echo "${jsonvariable}" | jq '.'
 
